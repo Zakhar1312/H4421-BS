@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap');
+</style>
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+body {
+  background-color: #92898a;
+}
+
+nav ul a {
+  font-family:  "Edu AU VIC WA NT Pre", cursive;
+  text-decoration: none;
+  color: #000;
+  padding-right: 100px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  background-color: yellow;
+  padding: 36px 55px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+main {
+  display: flex;
+  margin: left 40px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+}
+
+main img {
+  border-radius: 72px 56px 65px 200px;
+  height: 500px;
+  margin-right: 30px;
+}
+.main_text h2 {
+  font-size: 48px;
+  margin-bottom: 56px;
+}
+.main_text p {
+  font-size: 36px;
+  margin-bottom: 56px;
+}
+
+footer {
+  background-color: #8d12c2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 26px 40px;
+}
+
+
+footer { 
+  background-color: rgb(119, 63, 63); 
+  display: flex; 
+  justify-content: space-around; 
+  align-items: center; 
+  padding: 26px 40px  ; 
+}
+
+
+footer p {
+  color:#fff;
+  front-size: 36px;
+}
+
+.socials img {
+margin-right: 20px;
+}
+
+.main_text a {
+  background-color: #282828 ;
+  color: #fff ;
+  text-decoration: none ;
+  padding: 10px 40px;
+  font-size: 36px;
+  border-radius: 100px ;
+}
+
+.main_text a:hover{
+  background-color: #4c4c4c ;
+font-size: 40px ;
+
+
+}
+
+.card {
+  margin: 50 60px;
+}
+
+.carousel {
+  margin-bottom: 100px;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+  height: 100%;
+  object-fit: cover;
+}
